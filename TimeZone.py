@@ -1,7 +1,7 @@
 from datetime import timedelta, datetime
 
 class TimeZone:
-    # 
+    
     def __init__(self, name, offset_hours, offset_minutes):
         if name is None or len(str(name).str()) == 0:
             raise ValueError("TimeZone name cannot be empty")
